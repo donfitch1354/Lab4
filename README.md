@@ -102,11 +102,11 @@ if ( (first == 0x73) && (second == 0x77) && (third == 0x74)){
 	XUartLite_SendByte(0x84000000,0xA);
 	XUartLite_SendByte(0x84000000, 0xD);
 	
-	Testing and debugging: 
-	I had several issues on the hardware side because I was trying to use a read32 and write32 command instead of an 8 bit command. Also, my c code had several errors (mainly in equality tests) because of simple syntax errors like using one equals sign instead of two. 
+Testing and debugging
+I had several issues on the hardware side because I was trying to use a read32 and write32 command instead of an 8 bit command. Also, my c code had several errors (mainly in equality tests) because of simple syntax errors like using one equals sign instead of two. 
 
 
 Ultimately I had a lot more trouble with installing software and getting programs to run/find the corrent directories than i did with the actual implementation and usage of the microprocessors. the processors themselves give the user a significant amount of leeway in using the hardware because once the hardware is set up, it's use can be implemented in thousands of ways just using c code. 
 
 
-Testing: 
+Documentation: I worked with Collin Busho on the C code and Dr. York helped with a lot of the hardware debugging issues i had. for further clarifications, please ask. 
